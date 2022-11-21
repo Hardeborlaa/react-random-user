@@ -51,7 +51,7 @@ class RandomUsers extends Component {
     } else {
       return (
         <main>
-          <section className="max-w-full max-h-screen bg-blue-500 flex justify-center items-center py-20">
+          <section className="h-screen bg-blue-500 flex justify-center items-center py-20">
             {users.map((user) => (
               <div className="sm:w-67 bg-red-300 py-8 px-12 max-w-md">
                 <div>
